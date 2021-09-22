@@ -42,8 +42,9 @@
         }
         .checkbox,#radio{
             position: relative;
-            top: 7px;
-            
+            border-radius: 50%;
+            height: auto;
+            width: auto;
         }
         .grade {
             background-color: #c5bfbf;
@@ -77,6 +78,13 @@
         #button { padding-top: 2% ; margin-left : -5%; text-align: center; }
         #submit { border: none; background-color: #4272d7; width: 150px; height: 40px; font-weight: 450; font-size: 18px; color: #fff; font-family: poppins,arial,helvetica neue,sans-serif; box-shadow: 2px 2px 5px 0 #6083ce, -1px -1px 1px 0 #4272d7;}
         #reset { border: none; background-color: #c53131; width: 150px; height: 40px; font-weight: 450; font-size: 18px; color: #fff; font-family: poppins,arial,helvetica neue,sans-serif; box-shadow: 2px 2px 5px 0 #cc4545, -1px -1px 1px 0 #c53131;}
+    
+        @media only screen and (max-width: 1000px){
+            .container { 
+                width: 55%; 
+                margin-left: 20%; 
+            }
+        }
     </style>
 </head>
 
